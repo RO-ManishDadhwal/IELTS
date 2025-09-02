@@ -1,0 +1,5 @@
+[
+  {"id": 1, "question": "List all users", "answer": "SELECT * FROM users", "difficulty": 1},
+  {"id": 2, "question": "Find users older than 30", "answer": "SELECT * FROM users WHERE age > 30", "difficulty": 2},
+  {"id": 3, "question": "Count users", "answer": "SELECT COUNT(*) FROM users", "difficulty": 1}
+]
