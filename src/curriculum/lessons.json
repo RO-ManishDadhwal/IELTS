@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "SELECT Basics",
+    "content": "learn select basics",
+    "prerequisites": [],
+    "practice_set_id": 1
+  },
+  {
+    "id": 2,
+    "title": "Joins",
+    "content": "learn joins",
+    "prerequisites": [1],
+    "practice_set_id": 2
+  },
+  {
+    "id": 3,
+    "title": "Subqueries",
+    "content": "learn subqueries",
+    "prerequisites": [2],
+    "practice_set_id": 3
+  },
+  {
+    "id": 4,
+    "title": "Window Functions",
+    "content": "learn window functions",
+    "prerequisites": [3],
+    "practice_set_id": 4
+  },
+  {
+    "id": 5,
+    "title": "Performance Tuning",
+    "content": "learn performance tuning",
+    "prerequisites": [4],
+    "practice_set_id": 5
+  }
+]
