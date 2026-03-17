@@ -1,0 +1,16 @@
+{
+  "meetingId": "Mtg-2026-04-001",
+  "meetingTitle": "Q2 Product Delivery Review",
+  "startDateTimeUtc": "2026-04-21T09:00:00Z",
+  "endDateTimeUtc": "2026-04-21T10:00:00Z",
+  "organizer": {
+    "name": "Riya Sharma",
+    "email": "riya.sharma@contoso.com"
+  },
+  "attendees": [
+    { "name": "Aman Gupta", "email": "aman.gupta@contoso.com" },
+    { "name": "Priya Iyer", "email": "priya.iyer@contoso.com" },
+    { "name": "Leo Martin", "email": "leo.martin@contoso.com" }
+  ],
+  "transcriptText": "Riya: Thanks everyone. Today we reviewed delivery status for release 5.2. Aman confirmed API integration is complete pending final security scan by Friday. Priya reported UI regression defects down from 23 to 5 and expects closure by next Tuesday if no new blockers. Leo raised risk that vendor sandbox credentials have not been refreshed and could delay UAT by 3 days. Team agreed to escalate to vendor manager today. Decision: proceed with code freeze on 30 April if security scan passes. Action: Aman to share scan report by Friday EOD. Action: Priya to publish defect burn-down daily. Action: Leo to coordinate credential refresh and provide update tomorrow 2 PM. Next sync tentatively proposed for 24 April, requires confirmation."
+}
