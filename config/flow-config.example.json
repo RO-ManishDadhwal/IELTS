@@ -1,0 +1,43 @@
+{
+  "trigger": {
+    "pollIntervalMinutes": 15,
+    "lookbackMinutes": 120,
+    "maxMeetingsPerRun": 50
+  },
+  "graph": {
+    "tenantId": "<tenant-guid>",
+    "clientId": "<app-client-id>",
+    "clientSecretRef": "<store-in-secure-secret-store>",
+    "baseUrl": "https://graph.microsoft.com/v1.0"
+  },
+  "transcript": {
+    "minTranscriptChars": 300,
+    "preferredLanguage": "en",
+    "waitStatus": "WaitingTranscript"
+  },
+  "attendees": {
+    "includeOrganizer": true,
+    "includeOptionalAttendees": true,
+    "excludeDomains": []
+  },
+  "ai": {
+    "provider": "M365CopilotOrTenantApprovedAI",
+    "temperature": 0.2,
+    "maxTokens": 1800
+  },
+  "email": {
+    "sendAs": "meeting-assistant@contoso.com",
+    "subjectTemplate": "Minutes of Meeting - {MeetingTitle}",
+    "importance": "Normal"
+  },
+  "review": {
+    "enabled": true,
+    "reviewerEmail": "pmo@contoso.com",
+    "timeoutHours": 24
+  },
+  "audit": {
+    "siteUrl": "https://contoso.sharepoint.com/sites/Operations",
+    "listName": "MeetingMoMAudit",
+    "storeTranscript": false
+  }
+}
